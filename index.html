@@ -1,32 +1,49 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
 	<title>Calculator</title>
 	<meta charset="UTF-8">
 	<link href="./style.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="./js/calculator.js" defer></script>
 </head>
+
 <body>
 	<div id="calculator">
 		<div id="calculatorDisplay">Example Text</div>
 		<div id="calculatorButtons">
-			<button id="zero">0</button>
-			<button id="one">1</button> 
-			<button id="two">2</button> 
-			<button id="three">3</button> 
-			<button id="four">4</button> 
-			<button id="five">5</button> 
-			<button id="six">6</button> 
-			<button id="seven">7</button> 
-			<button id="eight">8</button> 
-			<button id="nine">9</button> 
-			<button id="plus">+</button>
-			<button id="minus">-</button>
-			<button id="multiple">*</button> 
-			<button id="divide">/</button>   
-			<button id="clear">CE</button>
-			<button id="equals">=</button>
+			<div id="calculatorChangeButtons">
+				<button id="clearEntry">CE</button>
+				<button id="allClear">AC</button>
+				<button id="positiveNegative">+/-</button>
+			</div>
+			<div id="calculatorNumbers">
+				<button id="seven">7</button>
+				<button id="eight">8</button>
+				<button id="nine">9</button>
+				<button id="four">4</button>
+				<button id="five">5</button>
+				<button id="six">6</button>
+				<button id="one">1</button>
+				<button id="two">2</button>
+				<button id="three">3</button>
+				<button id="zero">0</button>
+				<button id="decimal">.</button>
+			</div>
+			<div id="calculatorOperators">
+				<button id="divide">/</button>
+				<button id="multiply">x</button>
+				<button id="minus">-</button>
+				<button id="plus">+</button>
+				<button id="equals">=</button>
+			</div>
 		</div>
 	</div>
+	<div id="footer">
+		<p>Copyright © <a href="https://github.com/gurpsehm" title="gurpsehm's Github link"> gurpsehm</a> <i
+				class="fa fa-github"></i> 2022</p>
+	</div>
 </body>
+
 </html>
