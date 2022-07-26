@@ -58,6 +58,23 @@ body {
 	margin-right: 13px;
 }
 
+#clearEntry,
+#allClear {
+	color: #CF0000;
+}
+
+#clearEntry:hover,
+#allClear:hover {
+	background-color: #CF0000;
+	color: #EEEEEE;
+}
+
+#clearEntry:active,
+#allClear:active {
+	background-color: #A60000;
+	color: #BEBEBE;
+}
+
 #calculatorNumbers {
 	display: flex;
 	flex-direction: row;
