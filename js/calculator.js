@@ -19,8 +19,33 @@ function divide (a, b) {
 	}
 }
 
+function operate (a, b, c) {
+	if (c === '+') {
+		return add(a, b);
+	}
+	else if (c === '-') {
+		return subtract(a, b);
+	}
+	else if (c === '*') {
+		return multiply(a, b);
+	}
+	else if (c === '/') {
+		return divide(a, b);
+	}
+	else {
+		return console.log(`You must enter a operator symbol (ex. +, -, *, /)`)
+	}
+}
+
 add(36, 100);
 subtract(21, 2);
 multiply(10, 10);
 divide(10, 2);
 divide(12, 0);
+
+operate(21, 2, '+');
+operate(13, 3, '-');
+operate(115, 7, '*');
+operate(1, 0, '/');
+operate(88, 4, '/');
+operate(21, 0, 'hello');
